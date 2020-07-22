@@ -1,12 +1,119 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
+<!DOCTYPE html> 
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8"> 
+  <title>HTML Academy: Пинк</title>
+</head>
+
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+    <header class="page-header">
+      <a class="page-header__logo-link">
+        <img class="page-header__logo-image" src="https://via.placeholder.com/74x23">
+      </a>
+       <nav class="main-nav">
+         <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+         </button>
+           <div class="main-nav__wrapper">
+             <ul class="main-nav__list site-list">
+               <li class="site-list__item site-list__item--active">
+                 <a href="index.html">Главная</a>
+               </li>
+               <li class="site-list__item">
+                 <a href="photos.html">Фотографии</a>
+               </li>
+               <li class="site-list__item">
+                 <a href="competition.html">Конкурс</a>
+               </li>
+               <li class="site-list__item">
+                 <a href="#">HTML Academy</a>
+               </li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">«Пинк» —  мобильное приложение.</h1>
+      <section class="banner">
+        <h2 class="banner-title">
+          Взгляните на мир иначе!
+        </h2>
+        <img src="https://via.placeholder.com/320x286">      
+      </section>
+      <section class="download">
+        <button class="main-nav__toggle" type="button">
+          <span class="download-app">Скачать приложение</span>
+        </button>  
+        <div class="page-download__operation-system operation-system">
+          <ul class="operation-system__list">
+            <li class="operation-system__item">
+              <a class="operation-system__link operation-system__link--apple" href="#">Apple</a>
+            </li>
+            <li class="operation-system__item">
+              <a class="operation-system__link operation-system__link--android" href="#">Android</a>
+            </li>
+            <li class="operation-system__item">
+              <a class="operation-system__link operation-system__link--microsoft" href="#">Microsoft</a>
+            </li>
+          </ul>
+        </div>
+        <p class="download-description">
+         Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+        </p> 
+      </section> 
+      <section class="features">
+        <p> Устали от серости мегаполиса? Нам есть, что вам предложить!</p>         
+      <div class="features__list">
+        <div class="features__item">
+          <h3 class="features__title">Поднимает настроение</h3>
+          <p class="features__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+        </div> 
+        <div class="features__item">
+          <h3 class="features__title">Меняет мир вокруг</h3>
+          <p class="features__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+        </div>    
+        <div class="features__item">
+          <h3 class="features__title">Заводит новых друзей</h3>
+          <p class="features__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+        </div>   
+        <div class="features__picture">
+          <img class="features-app__picture"src="https://via.placeholder.com/136x245">
+        </div>   
+      </div> 
+      <section> 
+        <!--- Здесь будет слайдер с отзывами --->  
+      </section> 
+      <section> 
+        <!--- Здесь будет слайдер с прайсом --->  
+      </section> 
+      <section> 
+        <!--- Здесь будет контактная информация и карта --->  
+      </section>   
+    </main>
+    <footer class="page-footer">
+          <a class="page-footer__logo">
+            <img src="https://via.placeholder.com/145x40">
+          </a>
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="#">Twitter</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="#">Facebook</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="#">Youtube</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <b class="copyright__text">Разработано:</b>
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        </div>
+      </div>
+    </footer>
+    </header>  
   </body>
-</html>
+  </html>
